@@ -1,0 +1,615 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,td,input,select,option,textarea{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+
+/*header*/
+.header{
+    min-width: 1200px;
+}
+.header{
+    width: 100%;
+    background-color: #0092d8;
+    height: 44px;
+    position: relative;
+}
+.logo{
+    float: left;
+    height: 44px;
+    width: 120px;
+    background-size: 200px 80px;
+    background-image: url(../img/img-index/index_2x.png);
+    background-position: -80px 0;
+}
+.navbox{
+    float: left;
+}
+.navbox .nav li{
+    float: left;
+}
+.navbox .nav li a{
+    float: left;
+    color: #a3c3e6;
+    line-height: 44px;
+    font-size: 12px;
+    padding: 0 30px;
+}
+.navbox .nav a:hover{
+    color:white;
+}
+.searchBox{
+    position: relative;
+    float: left;
+    height: 44px;
+    width: 60px;
+    margin-left: 500px;
+}
+.search{
+    width: 250px;
+    height: 44px;
+    position: relative;
+    /*display: none;*/
+    left: -190px;
+    opacity: 0;
+}
+.search_input{
+    width: 250px;
+    height: 44px;
+    text-indent: 30px;
+    border:none;
+
+}
+.search_btn{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    background-image: url(../img/img-index/index_sprite.png);
+    background-position: -67px -215px;
+    border:none;
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    cursor: pointer;
+}
+.img_span{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    cursor: pointer;
+    background-image: url(../img/img-index/index_sprite.png);
+    background-repeat: no-repeat;
+    background-position: -96px -215px;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.phoneBox{
+    position: relative;
+    float: left;
+    height: 44px;
+    width: 60px;
+}
+.phone{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    background-image: url(../img/img-index/index_sprite.png);
+    background-repeat: no-repeat;
+    background-position: -120px -215px;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.phone_img{
+    width: 300px;
+    height: 200px;
+    background-image: url(../img/img-index/ma.bmp);
+    background-size: 300px 200px;
+    position: absolute;
+    top: 45px;
+    left: -110px;
+    display: none;
+    position: relative;
+    z-index: 5;
+}
+.carBox{
+    position: relative;
+    float: left;
+    height: 44px;
+    width: 60px;
+}
+.lookCar{
+    width: 200px;
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+    background-color: white;
+    position: absolute;
+    left: -140px;
+    top: 44px;
+    display: none;
+    color: #808080;
+}
+.shoppingcar{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-image: url(../img/img-index/index_sprite.png);
+    background-repeat: no-repeat;
+    background-position: -140px -215px;
+    display: block;
+    width: 38px;
+    height: 20px;
+    margin: 0 auto;
+}
+.loginBox{
+    position: relative;
+    float: left;
+    height: 44px;
+    width: 80px;
+    line-height: 44px;
+
+}
+.loginImg{
+    position: absolute;
+    top: 12px;
+    background-image: url(../img/img-index/index_sprite.png);
+    background-repeat: no-repeat;
+    background-position: -25px -215px;
+    display: block;
+    width: 30px;
+    height: 20px;
+    margin: 0 auto;
+}
+.loginBox a{
+    color: white;
+    position: absolute;
+    left: 30px;
+}
+.loginBox .chong{
+    color: white;
+    position: absolute;
+    left: 103px;
+    top: 0;
+    font-size: 12px;
+    width: 50px;
+}
+
+/*主体部分*/
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 25px;
+    height: 1320px;
+}
+.cont_left{
+    width: 150px;
+    font-size: 12px;
+    float: left;
+    color: #333;
+}
+.side_nav li{
+    width: 140px;
+    height: 28px;
+}
+.side_nav li:hover{
+    color:#0092d8;
+}
+.li_title{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.li_line{
+    position: relative;
+}
+.li_line:after{
+    content: "";
+    width: 140px;
+    height: 0;
+    border-top:1px solid #989898;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+/*中间部分*/
+.cont_mian{
+    width: 720px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 70px;
+    margin-left: 60px;
+}
+/*我的信息*/
+.my_massage{
+    width: 718px;
+    height: 158px;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    background-color: #fff;
+    position: relative;
+    color: #999;
+}
+.portrait{
+    width: 80px;
+    height: 80px;
+    top: 39px;
+    left: 30px;
+    position: absolute;
+}
+.header_img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.person{
+    margin-left: 132px;
+    width: 320px;
+    height: 45px;
+    float: left;
+    margin-top: 45px;
+    position: relative;
+}
+.name{
+    font-size: 18px;
+}
+.nickname{
+    color: black;
+}
+.level_img{
+    display: inline-block;
+    margin-left: 10px;
+}
+.level_img img{
+    width: 64px;
+    height: 16px;
+    vertical-align: middle;
+}
+.tips{
+    line-height: 18px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.phone{
+    width: 90px;
+    float: left;
+    position: absolute;
+    top: 45px;
+    left:0;
+}
+.icon_phone{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-image: url("../img/img-mine/atom_sprite.png");
+    background-position: -206px -44px;
+    margin-left: 0;
+    position: relative;
+    bottom: 1px;
+}
+.phone a{
+    color: #333333;
+    font-size: 12px;
+}
+.score{
+    float: left;
+    margin-top: 45px;
+    width: 85px;
+    height: 45px;
+    text-align: center;
+    border-right: 1px dashed #e3e3e3;
+}
+.num{
+    font-size: 18px;
+    height: 27px;
+    text-align: center;
+    color: #333333;
+}
+.word{
+    font-size: 12px;
+}
+.coupon{
+    float: left;
+    margin-top: 45px;
+    width: 85px;
+    height: 45px;
+    text-align: center;
+    border-right: 1px dashed #e3e3e3;
+}
+.gift{
+    width: 85px;
+    height: 45px;
+    text-align: center;
+    float: left;
+    margin-top: 45px;
+
+}
+/*最近订单*/
+.my_order{
+    width: 720px;
+    border: 1px solid #eee;
+    border-bottom: none;
+    background: #fff;
+    margin-top: 20px;
+}
+.order_title{
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    position: relative;
+    padding: 0 19px;
+    border-bottom: 1px solid #eee;
+    font-weight: 400;
+}
+.order_title a {
+    float: right;
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 18px;
+}
+.sep{
+    height: 4px;
+    background: #f8f8f8;
+    border-bottom: 1px solid #eee;
+}
+.order_msg{
+    text-align: center;
+    padding: 30px 0;
+    color: #999;
+}
+.order_msg a{
+    font-size: 12px;
+    color: #999;
+}
+/*收藏*/
+.collection{
+    width: 100%;
+    border: 1px solid #eee;
+    border-bottom: none;
+    margin-top: 20px;
+    background: #fff;
+}
+.coll_tilte{
+    line-height: 59px;
+    font-size: 18px;
+    color: #333;
+    padding: 0 20px;
+    position: relative;
+    border-bottom: 1px solid #eee;
+}
+.coll_tilte a{
+    float: right;
+    line-height: 59px;
+    font-size: 12px;
+    color: #999;
+}
+.coll_box{
+    text-align: center;
+    width: 100%;
+    color: #999999;
+    font-size: 12px;
+}
+.coll_box p{
+    padding: 30px 0;
+}
+.coll_box p a{
+    color: #0092d8;
+}
+
+/*人气商品*/
+.popular{
+    width: 100%;
+    border: 1px solid #eee;
+    margin-top: 20px;
+    background: #fff;
+}
+.popu_title{
+    line-height: 59px;
+    font-size: 18px;
+    color: #333;
+    padding: 0 20px;
+    position: relative;
+    border-bottom: 1px solid #eee;
+}
+.popu_title a{
+    float: right;
+    line-height: 59px;
+    font-size: 12px;
+    color: #999
+}
+.popular_ul{
+    text-align: center;
+    height: 291px;
+    width: 100%;
+}
+.popu_goods{
+    position: relative;
+    width: 240px;
+    float: left;
+    height: 292px;
+}
+.popu_goods img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 34px auto 31px;
+}
+.goods_title{
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0 20px 6px;
+    color: #333;
+    font-size: 12px;
+}
+.popu_price{
+    color: #f60;
+    font-size: 12px;
+}
+/*广告*/
+.adv{
+    margin-top: 20px;
+}
+.adv img{
+    float: left;
+    width: 233px;
+    height: 128px;
+    margin-right: 10px;
+}
+/*右边部分*/
+.cont_right{
+    float: left;
+    width: 240px;
+}
+/*签到*/
+.sign{
+    width: 238px;
+    height: 63px;
+    color: #333;
+    border: 1px solid #eee;
+    background: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.sign_left{
+    font-size: 12px;
+    width: 59px;
+    float: left;
+    margin: 13px 0 13px 16px;
+    text-align: left;
+}
+.date{
+    width: 80px;
+    line-height: 63px;
+    font-size: 52px;
+    text-align: left;
+    float: left;
+    color: #deb249;
+}
+.sign_right{
+    float: left;
+    text-align: center;
+    padding-top: 13px;
+    height: 50px;
+    width: 80px;
+    border-left: 1px dashed #eee;
+    cursor: pointer;
+    font-size: 12px;
+}
+.sign_right a{
+    font-size: 14px;
+    color: black;
+}
+
+/*会员等级*/
+.member{
+    width: 238px;
+    height: 180px;
+    border: 1px solid #eee;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.mem_info{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    background-image: url("../img/img-mine/vip_1.jpg");
+}
+.mem_info_title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.25);
+    margin-bottom: 10px;
+}
+.box{
+    margin-top: 11px;
+    text-align: center;
+}
+.box a{
+    color: #333;
+    font-size: 12px;
+}
+/*人气会员活动*/
+.action{
+    width: 238px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-bottom: none;
+}
+.act_title{
+    font-size: 18px;
+    color: #333;
+    position: relative;
+    padding: 0 19px;
+    line-height: 60px;
+    border-bottom: 1px solid #eee;
+}
+.act_title a{
+    float: right;
+    font-size: 12px;
+    font-weight: 400;
+    color: #999;
+}
+.act_box{
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    display: block;
+}
+.act_box img{
+    width: 238px;
+    height: 238px;
+}
+
+/*footer*/
+.footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer_nav{
+    width: 1200px;
+    height: 42px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.footer_nav li{
+    float: left;
+    width: 200px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+}
+.footer_nav li a{
+    display: block;
+    color:#333333;
+    font-size: 12px;
+}
+.footer div:last-child{
+    font-size: 12px;
+    color: #333333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.footer div:last-child a{
+    font-size: 12px;
+    color: #333333;
+}
+.footer_box{
+    width: 100%;
+    background-color: white;
+}

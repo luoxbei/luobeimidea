@@ -1,0 +1,225 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, td, input, select, option, textarea {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.header {
+  width: 100%;
+  background-color: #0092d8;
+  height: 44px;
+  position: relative; }
+  .header a {
+    float: left;
+    height: 44px;
+    width: 120px;
+    background-size: 200px 80px;
+    background-image: url(../img/img-index/index_2x.png);
+    background-position: -80px 0px; }
+
+.bg {
+  margin-left: 300px;
+  width: 485px;
+  height: 485px;
+  float: left; }
+  .bg img {
+    width: 485px;
+    height: 485px; }
+
+.loginBox {
+  width: 380px;
+  height: 480px;
+  float: left;
+  margin-top: 60px;
+  box-shadow: 0 0 4px 0 #d6d6d6; }
+
+.login {
+  margin: auto;
+  width: 310px;
+  height: 480px; }
+  .login .title {
+    width: 310px;
+    height: 140px;
+    border-bottom: 1px solid #eeeeee; }
+  .login p {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 100;
+    padding-top: 30px;
+    padding-bottom: 15px; }
+  .login span {
+    background-image: url(../img/img-login/login.png);
+    float: left;
+    width: 48px;
+    height: 48px; }
+  .login span:first-child {
+    background-position: 0 0; }
+  .login span:last-child {
+    background-position: -58px 0;
+    margin-left: 24px; }
+
+.content {
+  width: 310px;
+  height: 300px;
+  position: relative; }
+  .content input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    text-indent: 12px;
+    font-size: 12px; }
+  .content button {
+    width: 301px;
+    height: 40px;
+    background-color: #0092d8;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+    margin-left: 5px;
+    margin-top: 10px; }
+  .content a {
+    font-size: 12px;
+    color: #999999;
+    margin-left: 10px;
+    float: left;
+    margin-top: 20px; }
+  .content a:hover {
+    color: #f30; }
+  .content a:last-child {
+    float: right;
+    margin-right: 10px; }
+
+.aaa:after {
+  position: absolute;
+  left: 100px;
+  top: 250px;
+  width: 2px;
+  height: 12px;
+  overflow: hidden;
+  content: "";
+  display: block;
+  background-color: #eeeeee;
+  z-index: 10; }
+
+.content .rec {
+  margin-left: 45px;
+  cursor: pointer; }
+
+.QQ:hover {
+  background-position: 0 -58px; }
+
+.login .wei:hover {
+  background-position: -58px -58px; }
+
+.content .btn:hover {
+  background-color: #0078cf; }
+
+.one {
+  display: block; }
+
+.two {
+  display: none;
+  position: relative; }
+
+.yanz {
+  display: block;
+  width: 99px;
+  height: 40px;
+  text-align: center;
+  line-height: 39px;
+  font-size: 12px;
+  color: #3f3f3f;
+  position: absolute;
+  top: 51px;
+  left: 207px;
+  border-left: 1px solid #eeeeee; }
+
+.register {
+  margin: auto;
+  width: 310px;
+  height: 480px;
+  position: relative;
+  font-size: 12px;
+  display: none; }
+
+.tishi {
+  color: #666666;
+  font-size: 18px;
+  font-weight: 100;
+  padding-top: 30px;
+  padding-bottom: 15px; }
+
+.register input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #eeeeee;
+  margin-top: 10px;
+  margin-left: 5px;
+  text-indent: 12px;
+  font-size: 12px; }
+
+.huoqu {
+  display: block;
+  width: 99px;
+  height: 40px;
+  text-align: center;
+  line-height: 39px;
+  font-size: 12px;
+  color: #3f3f3f;
+  position: absolute;
+  top: 80px;
+  left: 207px;
+  border-left: 1px solid #eeeeee; }
+
+.register span {
+  color: #999;
+  font-size: 12px;
+  display: block;
+  margin-top: 5px; }
+
+.xiyi {
+  margin-top: 10px; }
+
+.xiyi .chack {
+  float: left;
+  width: 12px;
+  height: 12px;
+  margin: 3px 10px;
+  cursor: pointer;
+  border-radius: 2px;
+  border: 1px solid #d6d6d6; }
+
+.xiyi a {
+  font-sixe: 12px;
+  color: #0086e6; }
+
+.rebtn {
+  width: 301px;
+  height: 40px;
+  background-color: #0092d8;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  border: none;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.rebtn:hover {
+  background-color: #0078cf; }
+
+.logingo {
+  float: right;
+  color: #0086e6;
+  cursor: pointer; }
+
+.logingo:hover {
+  color: #f30; }
+
+/*# sourceMappingURL=login.css.map */
